@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Coisar o bagulho</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    </head>
+    <body>
+        <textarea name="coisoDeTexto" id="coisoDeTexto" cols="30" rows="10"></textarea>
+        <input type="range" id="chanceDeCoisar" step="0.01" min="0" max="1"> (chance de coisar)
+        <div id="chance"></div>
+        <button onclick="coisar()">coisar</button>
+        <textarea name="coisoDeResultado" id="coisoDeResultado" cols="30" rows="10" disabled></textarea>
+        <script src="main.js"></script>
+    </body>
+</html>
